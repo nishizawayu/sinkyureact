@@ -1,41 +1,57 @@
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay,EffectFade} from "swiper";
+import "swiper/css";
+import "swiper/css/effect-fade";
 import './index.css'
 
 const First = () =>{
+
     return(
         <>
-            <main className=' pt-[60px]'>
-                <article class="top">
-                    <section class="fv">
-                        <div class="fv__txt">
-                            <h2 class="fv__h2 fv__h2_top slideInLeft">
+            <main className='pt-[60px]'>
+                <article className=" pt-60 md:pt-0">
+                    <section className=" relative pt-60 pb-[120px] lg:w-full lg:h-[80vh] lg:flex">
+                        <div className="fv__txt">
+                            <h2 className="slideInLeft absolute z-10 top-0 left-[5%] text-[32px] font-bold lg:top-[3%] lg:left-[3%] lg:text-[48px]">
                                 理想の働き方を<br />
                                 自分で選べる<br />
                                 この場所で<br />
                             </h2>
-                            <h2 class="fv__h2 fv__h2_bottom slideInLeft">
-                                世界が<span class="fv__h2_lage">“当たり前”</span>に使う<br />
+                            <h2 className="fv__h2 fv__h2_bottom slideInLeft absolute z-10 bottom-0 left-[5%] txt-[20px] font-bold ">
+                                世界が<span className="txt-[26px] font-bold">“当たり前”</span>に使う<br />
                                 ITサービスを、<br />
                                 共につくろう。
                             </h2>
                         </div>
                         
-                            
-                        <div class="swiper slideInBottom">
-                            <div class="swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide"><p><img src="img1.jpg" alt="オフィスの様子" /></p></div>
-                                    <div class="swiper-slide"><p><img src="office-img2.jpg" alt="オフィスの様子" /></p></div>
-                                    <div class="swiper-slide"><p><img src="office-img3.jpg" alt="オフィスの様子" /></p></div>
-                                    <div class="swiper-slide"><p><img src="office-img4.jpg" alt="オフィスの様子" /></p></div>
-                                </div>
-                            </div>
+                        <div className=" overflow-hidden w-full h-[60vh] lg:w-[90%] lg:h-[80vh] lg:ml-[10%] rounded-md">
+                            <Swiper
+                                slidesPerView={1}
+                                speed={1000}
+                                effect={"fade"}
+                                autoplay={{
+                                delay: 4000,
+                                disableOnInteraction: false,
+                                }}
+                                loop={true}
+                                modules={[Autoplay,EffectFade]}
+                                className="mySwiper relative w-full"
+                            >
+                                
+                                <SwiperSlide><img src="img1.jpg" alt="オフィスの様子" /></SwiperSlide>
+                                <SwiperSlide><img src="office-img2.jpg" alt="オフィスの様子" /></SwiperSlide>
+                                <SwiperSlide><img src="office-img3.jpg" alt="オフィスの様子" /></SwiperSlide>
+                                <SwiperSlide><img src="office-img4.jpg" alt="オフィスの様子" /></SwiperSlide>
+                            </Swiper>
                         </div>
+                        
                     </section>
             
-                    <section class="about">
-                        <h2 class="about__h2">About<br />
-                            <span class="about__h2_small">オフィスに込められた思い</span></h2>
-                        <p class="about__txt">
+                    <section className="pt-[120px] pb-[120px] lg:pt-[240px] lg:pb-[240px]">
+                        <h2 className="pt-[30px] text-center lg:w-full lg:pt-[60px] text-[36px] font-bold">About<br />
+                            <span className="text-lg lg:text-[28px] font-bold">オフィスに込められた思い</span></h2>
+                        <p className=" pt-[60px] w-[80%] m-cen text-lg font-medium leading-[35px] lg:pt-120ox lg:w-[50%] lg:text-[24px] lg:leading-[48px]">
                             KDDIウェブコミュニケーションは、「オフィスにいなくても仕事はできるけれど、オフィスに来たい」をコンセプトに、2016年9月から東京本社を現在の東京都港区南青山へと移転しました。その後、2020年2月末、新型コロナウィルス感染症の流行により、在宅勤務を中心とした働き方へと移行しました。また、東京本社へ出社しなくても働けるようになったことから、地方在住者の採用が増え、IターンやUターンをする社員も出てきました。
                             <br /><br />
                             しかしながら、コロナ禍前と比べると、これまで出社の際に行われていた雑談や偶発的なコミュニケーションが減少したため、社員はチームごとに合宿や東京本社への出張などを通して、コミュニケーションを図ってきました。
@@ -45,24 +61,26 @@ const First = () =>{
                         </p>
                     </section>
             
-                    <div class="workstyle__bg">
-                        <section class="con con__workstyle">
-                            <div class="con__grid">
-                                <h2 class="con__h2">Workstyle<br />
-                                    <span class="con__h2_small">働き方</span>
+                    <div className="bg-[#fff] relative z-10">
+                        <section className="con relative rounded-t-[10px] bg-[#FEE57F] z-10">
+                            <div className="grid">
+                                <h2 className="pt-[30px] text-center lg:w-full lg:pt-[60px] text-[36px] font-bold">Workstyle<br />
+                                    <span className="text-lg lg:text-[28px] font-bold">働き方</span>
                                 </h2>
-                                <p class="con__img">
-                                    <img src="workstayle1.png" alt="働き方" />
+                                <p className="w-[40%] pt-[60px] m-cen">
+                                    <img src="workstayle1.png" alt="働き方" className="w-full"/>
                                 </p>
                                 
-                                <div class="con__block">
-                                    <p class="con__txt">
+                                <div className="con__block">
+                                    <p className="w-full text-center pt-60 pb-60 text-lg font-medium leading-10">
                                         自分がもっとも成果をだしやすい<br />
                                         環境が見つかる<br />
                                         自分で選ぶ働き方をご紹介します。
                                     </p>
-                                    <div class="con__btn">
-                                        <a href="workstyle/index.html" class="arrow circle"><p class="con__btn_more move_btn">詳しく見る</p></a>
+                                    <div className="w-[90%] flex flex-row-reverse pb-60 relative">
+                                        <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[7%] before:top-[-20px] before:hover:right-[-2%] before:hover:top-[-20px] before:lg:w-[70px] before:lg:h-[70px]">
+                                            <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
+                                        </div>
                                     </div>
                                 </div>
                                 
@@ -70,14 +88,14 @@ const First = () =>{
                         </section>
                     </div>
         
-                    <div class="myswitch__bg">
-                        <section class="con con__myswitch">
+                    <div className="bg-[#FEE57F] relative z-10">
+                        <section className="con relative rounded-t-[10px] bg-[#fff] z-10">
                             
-                            <div class="con__gridri">
-                                <h2 class="con__h2">My switch<br />
-                                    <span class="con__h2_small">社員のON・OFF</span>
+                            <div className="con__gridri">
+                                <h2 className="pt-[30px] text-center lg:w-full lg:pt-[60px] text-[36px] font-bold">My switch<br />
+                                    <span className="text-lg lg:text-[28px] font-bold">社員のON・OFF</span>
                                 </h2>
-                                <p class="con__txt">
+                                <p className="w-full text-center pt-60 pb-60 text-lg font-medium leading-10">
                                     いいOFF（休み）がないと<br />
                                     いいON（仕事）はできない。<br />
                                     KDDIウェブコミュニケーションズ<br />
@@ -85,51 +103,59 @@ const First = () =>{
                                     ご覧ください。<br />
                                 </p>
                                 
-                                <p class="con__img con__img_right">
-                                    <img src="./myswitch.png" alt="社員のON・OFF" />
+                                <p className="w-[40%] pt-[60px] m-cen con__img_right">
+                                    <img src="./myswitch.png" alt="社員のON・OFF" className="w-full"/>
                                 </p>
-                                <div class="con__btn pd60">
-                                    <a href="myswitch/index.html" class="arrow circle"><p class="con__btn_more move_btn">詳しく見る</p></a>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    
-                    <div class="Office__bg">
-                        <section class="con con__Office">
-                            <div class="con__grid">
-                                <h2 class="con__h2">Office<br />
-                                    <span class="con__h2_small">オフィス紹介</span>
-                                </h2>
-                                <p class="con__img">
-                                    <img src="./office.png" alt="オフィス紹介" />
-                                </p>
-                        
-                                <div class="con__block">
-                                    <p class="con__txt">
-                                        社員の憩いの場で<br />
-                                        コミュニケーションが生まれる場所。<br />
-                                        そんなオフィスをご紹介します。
-                                    </p>
-                                    <div class="con__btn">
-                                        <a href="office/index.html" class="arrow circle"><p class="con__btn_more move_btn">詳しく見る</p></a>
+                                <div className="w-[90%] flex flex-row-reverse pb-60 relative">
+                                    <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[7%] before:top-[-20px] before:hover:right-[-2%] before:hover:top-[-20px] before:lg:w-[70px] before:lg:h-[70px]">
+                                        <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
                                     </div>
                                 </div>
                             </div>
                         </section>
                     </div>
                     
-                    <div class="info__bg">
-                        <div class="info">
-                            <div class="info__conteiner">
-                                <p class="info__txt">
+                    <div className="bg-[#fff] relative z-10">
+                        <section className="con relative rounded-t-[10px] bg-[#FEE57F] z-10">
+                            <div className="con__grid">
+                                <h2 className="pt-[30px] text-center lg:w-full lg:pt-[60px] text-[36px] font-bold">Office<br />
+                                    <span className="text-lg lg:text-[28px] font-bold">オフィス紹介</span>
+                                </h2>
+                                <p className="w-[40%] pt-[60px] m-cen">
+                                    <img src="./office.png" alt="オフィス紹介" className="w-full"/>
+                                </p>
+                        
+                                <div className="con__block">
+                                    <p className="w-full text-center pt-60 pb-60 text-lg font-medium leading-10">
+                                        社員の憩いの場で<br />
+                                        コミュニケーションが生まれる場所。<br />
+                                        そんなオフィスをご紹介します。
+                                    </p>
+                                    <div className="w-[90%] flex flex-row-reverse pb-60 relative">
+                                        <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[7%] before:top-[-20px] before:hover:right-[-2%] before:hover:top-[-20px] before:lg:w-[70px] before:lg:h-[70px]">
+                                            <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div className="bg-[#FEE57F] relative z-10">
+                        <div className="relative rounded-t-[10px] bg-[#fff] z-100 m-cen">
+                            <div className="w-full m-cen pb-[120px] lg:pd-[240px]">
+                                <p className="w-100 text-center text-xl font-bold pt-[120px] lg:text-[36px] lg:pt-[240px]">
                                     KDDIウェブコミュニケーションズに<br />
                                     興味を持ってくれた方は</p>
-                                <p class="info__img">
-                                    <img src="./info.jpg" alt="information" />
+                                <p className="pt-[60px] m-cen w-[80%] lg:pt-[120px] lg:w-[50%]">
+                                    <img src="./info.jpg" alt="information" className="w-full"/>
                                 </p>
-                                <div class="info__btn move_btn">
-                                    <a href="https://recruit.kddi-webcommunications.co.jp/recruitment/" class="arrow circle" target="blank"><p>一緒に働いてみませんか？</p></a>
+                                <div className="w-[90%] flex flex-row-reverse pb-60 relative">
+                                <div className="w-[90%] flex flex-row-reverse pb-60 relative">
+                                    <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[7%] before:top-[-20px] before:hover:right-[-2%] before:hover:top-[-20px] before:lg:w-[70px] before:lg:h-[70px]">
+                                        <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
+                                    </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
