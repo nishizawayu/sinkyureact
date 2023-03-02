@@ -11,21 +11,21 @@ const First = () =>{
         <>
             <main className='pt-[60px]'>
                 <article className=" pt-60 md:pt-0">
-                    <section className=" relative pt-60 pb-[120px] lg:w-full lg:h-[80vh] lg:flex">
+                    <section className=" relative pt-60 pb-[120px] lg:w-full lg:h-[80vh] lg:flex m-cen">
                         <div className="fv__txt">
                             <h2 className="slideInLeft absolute z-10 top-0 left-[5%] text-[32px] font-bold lg:top-[3%] lg:left-[3%] lg:text-[48px]">
                                 理想の働き方を<br />
                                 自分で選べる<br />
                                 この場所で<br />
                             </h2>
-                            <h2 className="fv__h2 fv__h2_bottom slideInLeft absolute z-10 bottom-0 left-[5%] txt-[20px] font-bold ">
-                                世界が<span className="txt-[26px] font-bold">“当たり前”</span>に使う<br />
+                            <p className="fv__h2 fv__h2_bottom slideInLeft absolute z-10 bottom-0 left-[5%] text-[20px] font-bold lg:text-[32px] ">
+                                世界が<span className="text-[26px] font-bold lg:text-[36px]">“当たり前”</span>に使う<br />
                                 ITサービスを、<br />
                                 共につくろう。
-                            </h2>
+                            </p>
                         </div>
                         
-                        <div className=" overflow-hidden w-full h-[60vh] lg:w-[90%] lg:h-[80vh] lg:ml-[10%] rounded-md">
+                        <div className=" overflow-hidden w-full h-[60vh] lg:w-[100%] lg:h-[80vh] lg:ml-[20%] rounded-md">
                             <Swiper
                                 slidesPerView={1}
                                 speed={1000}
@@ -39,10 +39,10 @@ const First = () =>{
                                 className="mySwiper relative w-full"
                             >
                                 
-                                <SwiperSlide><img src="img1.jpg" alt="オフィスの様子" /></SwiperSlide>
-                                <SwiperSlide><img src="office-img2.jpg" alt="オフィスの様子" /></SwiperSlide>
-                                <SwiperSlide><img src="office-img3.jpg" alt="オフィスの様子" /></SwiperSlide>
-                                <SwiperSlide><img src="office-img4.jpg" alt="オフィスの様子" /></SwiperSlide>
+                                <SwiperSlide><img src="img1.jpg" alt="オフィスの様子" className="w-[100%]"/></SwiperSlide>
+                                <SwiperSlide><img src="office-img2.jpg" alt="オフィスの様子" className="w-[100%]"/></SwiperSlide>
+                                <SwiperSlide><img src="office-img3.jpg" alt="オフィスの様子" className="w-[100%]"/></SwiperSlide>
+                                <SwiperSlide><img src="office-img4.jpg" alt="オフィスの様子" className="w-[100%]"/></SwiperSlide>
                             </Swiper>
                         </div>
                         
