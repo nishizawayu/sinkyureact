@@ -3,11 +3,72 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html{
     scroll-behavior: smooth;
 }
 
 body{
     font-family: 'Zen Maru Gothic',sans-serif;
+}
+
+@media screen and (max-width: 1023px) {
+    .grid{
+        display: grid;
+                grid-template-areas: 
+                "img"
+                "header"
+                "txt";
+    }
+    
+    .gridri{
+        display: grid;
+        grid-template-areas: 
+        "img"
+        "header"
+        "txt2"
+        "btn";
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "img txt";
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .gridri{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "txt2 img"
+        "txt2 btn";
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.con-h2{
+    grid-area:header;
+}
+
+.con-img{
+    grid-area: img;
+}
+
+.con-block{
+    grid-area: txt;
+}
+
+.con-btn{
+    grid-area: btn;
+}
+
+.con-txt{
+    grid-area: txt2;
 }

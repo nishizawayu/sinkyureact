@@ -62,23 +62,23 @@ const First = () =>{
                     </section>
             
                     <div className="bg-[#fff] relative z-10">
-                        <section className="con relative rounded-t-[10px] bg-[#FEE57F] z-10">
-                            <div className="grid">
-                                <h2 className="pt-[30px] text-center lg:w-full lg:pt-[60px] text-[36px] font-bold">Workstyle<br />
+                        <section className="relative rounded-t-[10px] bg-[#FEE57F] z-10">
+                            <div className="grid lg:pt-60 lg:pb-60">
+                                <h2 className="pt-[30px] text-center lg:w-full lg:pt-[60px] text-[36px] font-bold con-h2">Workstyle<br />
                                     <span className="text-lg lg:text-[28px] font-bold">働き方</span>
                                 </h2>
-                                <p className="w-[40%] pt-[60px] m-cen">
+                                <p className="w-[35%] lg:w-[40%] pt-[60px] m-cen con-img">
                                     <img src="workstayle1.png" alt="働き方" className="w-full"/>
                                 </p>
                                 
-                                <div className="con__block">
-                                    <p className="w-full text-center pt-60 pb-60 text-lg font-medium leading-10">
+                                <div className="con-block">
+                                    <p className="w-full text-center pt-60 text-lg font-medium leading-10 con-txt">
                                         自分がもっとも成果をだしやすい<br />
                                         環境が見つかる<br />
                                         自分で選ぶ働き方をご紹介します。
                                     </p>
-                                    <div className="w-[90%] flex flex-row-reverse pb-60 relative">
-                                        <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[7%] before:top-[-20px] before:hover:right-[-2%] before:hover:top-[-20px] before:lg:w-[70px] before:lg:h-[70px]">
+                                    <div className="w-[90%] flex flex-row-reverse pb-60 pt-60 relative con-btn">
+                                        <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[15%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
                                             <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
                                         </div>
                                     </div>
@@ -91,11 +91,11 @@ const First = () =>{
                     <div className="bg-[#FEE57F] relative z-10">
                         <section className="con relative rounded-t-[10px] bg-[#fff] z-10">
                             
-                            <div className="con__gridri">
-                                <h2 className="pt-[30px] text-center lg:w-full lg:pt-[60px] text-[36px] font-bold">My switch<br />
+                            <div className="gridri lg:pt-60 lg:pb-60">
+                                <h2 className="pt-[30px] text-center lg:w-full lg:pt-[60px] text-[36px] font-bold con-h2">My switch<br />
                                     <span className="text-lg lg:text-[28px] font-bold">社員のON・OFF</span>
                                 </h2>
-                                <p className="w-full text-center pt-60 pb-60 text-lg font-medium leading-10">
+                                <p className="w-full text-center pt-60 text-lg font-medium leading-10 con-txt">
                                     いいOFF（休み）がないと<br />
                                     いいON（仕事）はできない。<br />
                                     KDDIウェブコミュニケーションズ<br />
@@ -103,11 +103,11 @@ const First = () =>{
                                     ご覧ください。<br />
                                 </p>
                                 
-                                <p className="w-[40%] pt-[60px] m-cen con__img_right">
+                                <p className="w-[35%] pt-[60px] m-cen con__img_right con-img">
                                     <img src="./myswitch.png" alt="社員のON・OFF" className="w-full"/>
                                 </p>
-                                <div className="w-[90%] flex flex-row-reverse pb-60 relative">
-                                    <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[7%] before:top-[-20px] before:hover:right-[-2%] before:hover:top-[-20px] before:lg:w-[70px] before:lg:h-[70px]">
+                                <div className="w-[90%] flex flex-row-reverse pb-60 pt-60 relative con-btn">
+                                    <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[15%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
                                         <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
                                     </div>
                                 </div>
@@ -117,22 +117,22 @@ const First = () =>{
                     
                     <div className="bg-[#fff] relative z-10">
                         <section className="con relative rounded-t-[10px] bg-[#FEE57F] z-10">
-                            <div className="con__grid">
-                                <h2 className="pt-[30px] text-center lg:w-full lg:pt-[60px] text-[36px] font-bold">Office<br />
+                            <div className="grid lg:pt-60 lg:pb-60">
+                                <h2 className="pt-[30px] text-center lg:w-full lg:pt-[60px] text-[36px] font-bold con-h2">Office<br />
                                     <span className="text-lg lg:text-[28px] font-bold">オフィス紹介</span>
                                 </h2>
-                                <p className="w-[40%] pt-[60px] m-cen">
+                                <p className="w-[35%] pt-[60px] m-cen con-img">
                                     <img src="./office.png" alt="オフィス紹介" className="w-full"/>
                                 </p>
                         
-                                <div className="con__block">
-                                    <p className="w-full text-center pt-60 pb-60 text-lg font-medium leading-10">
+                                <div className="con-block">
+                                    <p className="w-full text-center pt-60 text-lg font-medium leading-10 con-img">
                                         社員の憩いの場で<br />
                                         コミュニケーションが生まれる場所。<br />
                                         そんなオフィスをご紹介します。
                                     </p>
-                                    <div className="w-[90%] flex flex-row-reverse pb-60 relative">
-                                        <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[7%] before:top-[-20px] before:hover:right-[-2%] before:hover:top-[-20px] before:lg:w-[70px] before:lg:h-[70px]">
+                                    <div className="w-[90%] flex flex-row-reverse pb-60 relative con-btn pt-60">
+                                        <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[15%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
                                             <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
                                         </div>
                                     </div>
@@ -144,17 +144,15 @@ const First = () =>{
                     <div className="bg-[#FEE57F] relative z-10">
                         <div className="relative rounded-t-[10px] bg-[#fff] z-100 m-cen">
                             <div className="w-full m-cen pb-[120px] lg:pd-[240px]">
-                                <p className="w-100 text-center text-xl font-bold pt-[120px] lg:text-[36px] lg:pt-[240px]">
+                                <p className="w-100 text-center text-xl font-bold leading-9 pt-[120px] lg:text-[36px] lg:pt-[240px]">
                                     KDDIウェブコミュニケーションズに<br />
                                     興味を持ってくれた方は</p>
                                 <p className="pt-[60px] m-cen w-[80%] lg:pt-[120px] lg:w-[50%]">
                                     <img src="./info.jpg" alt="information" className="w-full"/>
                                 </p>
-                                <div className="w-[90%] flex flex-row-reverse pb-60 relative">
-                                <div className="w-[90%] flex flex-row-reverse pb-60 relative">
-                                    <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[7%] before:top-[-20px] before:hover:right-[-2%] before:hover:top-[-20px] before:lg:w-[70px] before:lg:h-[70px]">
+                                <div className="w-[90%] flex flex-row-reverse pb-60 pt-60 relative">
+                                    <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[7%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
                                         <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
-                                    </div>
                                     </div>
                                 </div>
                             </div>
