@@ -72,3 +72,34 @@ body{
 .con-txt{
     grid-area: txt2;
 }
+
+@media screen and (max-width: 1023px) {
+    .office__con{
+        grid-template-areas: 
+            "img"
+            "con"
+            "txt";
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .office__con{
+        grid-template-areas: 
+            "con img"
+            "txt img";
+        grid-template-columns: 1fr 1fr;
+        gap: 3%;
+    }
+}
+
+.office__h3{
+    grid-area: con;
+}
+
+.office__txt{
+    grid-area: txt;
+}
+
+.office__conteiner{
+    grid-area: img;
+}

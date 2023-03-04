@@ -3,12 +3,14 @@ import './index.css'
 import Header from './Header'
 import First from './First'
 import Footer from './Footer'
+import Switch from './switch'
+import Office from './Office'
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <First/>
+      <Office/>
       <Footer/>
     </div>
   )

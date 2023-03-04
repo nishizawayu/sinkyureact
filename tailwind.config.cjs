@@ -25,20 +25,32 @@ module.exports = {
         'cen':'0 auto',
       },
       animation: {
-          "slide-in-fwd-left": "slide-in-fwd-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both"
+        "slide-in-fwd-left": "slide-in-fwd-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
+        "shadow-inset-center": "shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
       },
       keyframes: {
-          "slide-in-fwd-left": {
-              "0%": {
-                  transform: "translateZ(-100px) translateX(-100px)",
-                  opacity: "0"
-              },
-              to: {
-                  transform: "translateZ(0) translateX(0)",
-                  opacity: "1"
-              }
+        "slide-in-fwd-left": {
+            "0%": {
+                transform: "translateZ(-100px) translateX(-100px)",
+                opacity: "0"
+            },
+            to: {
+                transform: "translateZ(0) translateX(0)",
+                opacity: "1"
+            }
+        },
+        "shadow-inset-center": {
+          "0%": {
+              "box-shadow": "inset 0 0 0 0 transparent"
+          },
+          to: {
+              "box-shadow": "inset 0 0 14px 0 rgba(0, 0, 0, .5)"
           }
+        },
       },
+      backgroundImage: {
+        'sita': "url('border.png')",
+      }
     },
 
   },
