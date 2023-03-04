@@ -1,5 +1,7 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useEffect, useState } from 'react'
+import Header from './Header'
+import Footer from './Footer'
 import './index.css';
 
 const Office = ()=>{
@@ -22,6 +24,7 @@ const Office = ()=>{
 
     return(
         <>
+        <Header/>
         <main className="pt-60">
             <section className="office w-full">
                 <div className="office__top w-[90%] max-w-[600px] lg:max-w-[800px] lg:pt-60 flex m-cen justify-between items-end">
@@ -333,7 +336,7 @@ const Office = ()=>{
             </section>
 
         </main>
-
+        <Footer/>
         </>
     )
 }

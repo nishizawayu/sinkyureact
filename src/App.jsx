@@ -1,18 +1,22 @@
-import { useState } from 'react'
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 import './index.css'
-import Header from './Header'
 import First from './First'
-import Footer from './Footer'
-import Switch from './switch'
+import Switch from './Switch'
 import Office from './Office'
+import Workstyle from "./workstyle";
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Office/>
-      <Footer/>
-    </div>
+    <>
+      <BrowserRouter>
+            <Routes>
+                <Route path= "/" element={<First/>} />
+                <Route path= "/switch" element={<Switch/>}/>
+                <Route path= "/office" element={<Office/>}/>
+                <Route path= "/workstyle" element={<Workstyle/>}/>
+            </Routes>
+      </BrowserRouter>
+    </>
   )
 }
 

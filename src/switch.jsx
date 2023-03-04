@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import './index.css'
+import Header from './Header';
+import Footer from './Footer';
 
 const Switch =  () =>{
 
@@ -25,6 +27,7 @@ const Switch =  () =>{
 
     return(
         <>
+        <Header/>
         <main className="pt-60 lg:pt-[120px]">
             
             <section className="myswitch w-full">
@@ -250,6 +253,7 @@ const Switch =  () =>{
             </div>
             
         </main>
+        <Footer/>
         </>
     )
 }

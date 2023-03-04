@@ -1,3 +1,5 @@
+import Header from './Header'
+import Footer from './Footer'
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay,EffectFade} from "swiper";
@@ -9,6 +11,7 @@ const First = () =>{
 
     return(
         <>
+            <Header/>
             <main className='pt-[60px]'>
                 <article className=" pt-60 md:pt-0">
                     <section className=" relative pt-60 pb-[120px] lg:w-full lg:h-[80vh] lg:flex m-cen">
@@ -160,7 +163,7 @@ const First = () =>{
                     </div>
                 </article>
             </main>
-
+            <Footer/>
         </>
     )
 }
