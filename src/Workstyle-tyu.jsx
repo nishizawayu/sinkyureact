@@ -22,16 +22,16 @@ const Workstyletyu = () =>{
         <>
             <Header/>
 
-                <div className="workstyle__tab_container pt-[60px] lg:pt-0" id="sakuhin">
+                <div className="workstyle__tab_container pt-[80px] lg:pt-0" id="sakuhin">
                     <div className="workstyle__tab-flex bg-[#EFEFEF] transition w-full flex m-cen rounded-[22px] lg:absolute lg:top-[90px] lg:right-0 lg:z-[500] lg:rounded-l-[22px] cursor-pointer lg:[writing-mode:vertical-rl] lg:w-auto">
-                        <div onClick={TabPushBtn2} className={tabBtn2?"workstyle__btn-man bg-[#9da3e9] w-[50%] rounded-tl-22px pt-[10px] pb-[10px] lg:w-full lg:rounded-tl-[22px] lg:pt-[30px] lg:pb-[30px] lg:pl-[20px] lg:pr-[20px]"
-                                                                    :"workstyle__btn-man bg-[#7c85ec] w-[50%] rounded-tl-22px pt-[10px] pb-[10px] lg:w-full lg:rounded-tl-[22px] lg:pt-[30px] lg:pb-[30px] lg:pl-[20px] lg:pr-[20px]"
+                        <div onClick={TabPushBtn2} className={tabBtn2?"workstyle__btn-man bg-[#9da3e9] w-[50%] rounded-tl-[22px] pt-[10px] pb-[10px] lg:w-full lg:rounded-tl-[22px] lg:pt-[30px] lg:pb-[30px] lg:pl-[20px] lg:pr-[20px]"
+                                                                    :"workstyle__btn-man bg-[#7c85ec] w-[50%] rounded-tl-[22px] pt-[10px] pb-[10px] lg:w-full lg:rounded-tl-[22px] lg:pt-[30px] lg:pb-[30px] lg:pl-[20px] lg:pr-[20px]"
                         }>
                             <p className="text-center text-[#FBFAFF] text-sm lg:text-2xl font-bold">男性の方</p>
                         </div>
                         <div onClick={TabPushBtn1} className={tabBtn1
-                                                    ?"workstyle__btn-woman bg-[#e87777] w-[50%] rounded-bl-[22px] pt-[10px] pb-[10px] lg:w-full lg:pt-[30px] lg:pb-[30px] lg:pl-[20px] lg:pr-[20px]"
-                                                    :"workstyle__btn-woman bg-[#f7bdc2] w-[50%] rounded-bl-[22px] pt-[10px] pb-[10px] lg:w-full lg:pt-[30px] lg:pb-[30px] lg:pl-[20px] lg:pr-[20px]"}
+                                                    ?"workstyle__btn-woman bg-[#e87777] w-[50%] rounded-tr-[22px] pt-[10px] pb-[10px] lg:w-full lg:pt-[30px] lg:pb-[30px] lg:pl-[20px] lg:pr-[20px] lg:rounded-bl-[22px] lg:rounded-tr-[0px]"
+                                                    :"workstyle__btn-woman bg-[#f7bdc2] w-[50%] rounded-tr-[22px] pt-[10px] pb-[10px] lg:w-full lg:pt-[30px] lg:pb-[30px] lg:pl-[20px] lg:pr-[20px] lg:rounded-bl-[22px] lg:rounded-tr-[0px]"}
                                                     >
                             <p className="text-center text-[#FBFAFF] text-sm lg:text-2xl font-bold">女性の方</p>
                         </div>
