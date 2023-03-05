@@ -12,7 +12,7 @@ const First = () =>{
     return(
         <>
             <Header/>
-            <main className='pt-[60px]'>
+            <main className='pt-[90px]'>
                 <article className=" pt-60 md:pt-0">
                     <section className=" relative pt-60 pb-[120px] lg:w-full lg:h-[80vh] lg:flex m-cen">
                         <div className="fv__txt">

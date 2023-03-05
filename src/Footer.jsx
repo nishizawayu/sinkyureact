@@ -25,7 +25,7 @@ const Footer = ()=>{
                         </div>
                     </Link>
                     
-                    <Link to="/workstyle" className="w-[50%] mt-[30px] sm:mt-0 text-2xl font-bold lg:w-[20%] text-[28px]">
+                    <Link to="/workstyle-sin" className="w-[50%] mt-[30px] sm:mt-0 text-2xl font-bold lg:w-[20%] text-[28px]">
                         <div>
                             <p>Workstyle</p>
                             <p className="text-sm lg:text-base lg:w-[80%] font-medium">働き方</p>
@@ -56,8 +56,8 @@ const Footer = ()=>{
                     </div>
                     
                     <div className="lg:w-[35%] lg:flex lg:justify-end lg:flex-wrap">
-                        <Link to="/" className="pt-60 lg:pt-0 pb-[30px] w-[30%] m-cen lg:m-0 lg:w-[50%] lg:pb-60">
-                            <p>
+                        <Link to="/">
+                            <p className="pt-60 lg:pt-0 pb-[30px] w-[30%] m-cen lg:m-auto lg:w-[50%] lg:pb-60">
                                 <img src="logo_kddi.png" alt="KDDIウェブコミュニケーションズ" className='w-full'/>
                             </p>
                         </Link>

@@ -103,3 +103,23 @@ body{
 .office__conteiner{
     grid-area: img;
 }
+
+.workstyle__con{
+    display: grid;
+    grid-template-areas: 
+            "work-img"
+            "work-h4"
+            "work-txt";
+}
+
+.workstyle__h4{
+    grid-area: work-h4;
+}
+
+.workstyle__con-img{
+    grid-area: work-img;
+}
+
+.workstyle__con-txt{
+    grid-area: work-txt;
+}

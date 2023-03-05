@@ -59,7 +59,7 @@ const Switch =  () =>{
                         </h2>
 
                         <button onClick={handlePushBtn1} type='button' className="myswitch__onbtn myswitch__btn1 cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FD9503] rounded-[10px] flex items-center justify-center 
-                        lg:top-[19%] lg:right-[5%] lg:w-[90px] lg:h-[90px] transition hover:animate-shadow-inset-center">
+                        lg:top-[19%] lg:right-[5%] lg:w-[90px] lg:h-[90px] transition">
                             <p className="ON text-[10px] text-[#fff] lg:text-center lg:text-[18px]">
                                 <span className="ON__big text-[24px] lg:text-[30px]">ON</span><br/>
                                 のわたし</p>
