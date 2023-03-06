@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import './index.css'
+import ScrollToTopOnMount from "./ScrollToTopOnMount";
 import Header from './Header'
 import Footer from './Footer'
 
@@ -20,6 +21,7 @@ const Workstyletyu = () =>{
 
     return(
         <>
+            <ScrollToTopOnMount/>
             <Header/>
 
                 <div className="workstyle__tab_container pt-[80px] lg:pt-0" id="sakuhin">

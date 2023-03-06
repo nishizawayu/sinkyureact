@@ -1,5 +1,6 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useEffect, useState } from 'react'
+import ScrollToTopOnMount from "./ScrollToTopOnMount";
 import Header from './Header'
 import Footer from './Footer'
 import './index.css';
@@ -24,6 +25,7 @@ const Office = ()=>{
 
     return(
         <>
+        <ScrollToTopOnMount/>
         <Header/>
         <main className="pt-60">
             <section className="office w-full">

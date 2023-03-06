@@ -1,6 +1,8 @@
+import ScrollToTopOnMount from './ScrollToTopOnMount';
 import Header from './Header'
 import Footer from './Footer'
 import React, { useRef, useState } from "react";
+import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay,EffectFade} from "swiper";
 import "swiper/css";
@@ -11,6 +13,7 @@ const First = () =>{
 
     return(
         <>
+            <ScrollToTopOnMount/>
             <Header/>
             <main className='pt-[90px]'>
                 <article className=" pt-60 md:pt-0">
@@ -80,11 +83,15 @@ const First = () =>{
                                         環境が見つかる<br />
                                         自分で選ぶ働き方をご紹介します。
                                     </p>
-                                    <div className="w-[90%] flex flex-row-reverse pb-60 pt-60 relative con-btn">
-                                        <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[15%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
-                                            <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
-                                        </div>
-                                    </div>
+
+                                    <Link to="/workstyle">
+                                        <div className="w-[90%] flex flex-row-reverse pb-60 pt-60 relative con-btn">
+                                            <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[15%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
+                                                <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
+                                            </div>
+                                        </div>                                        
+                                    </Link>
+
                                 </div>
                                 
                             </div>
@@ -109,11 +116,15 @@ const First = () =>{
                                 <p className="w-[35%] pt-[60px] m-cen con__img_right con-img">
                                     <img src="./myswitch.png" alt="社員のON・OFF" className="w-full"/>
                                 </p>
-                                <div className="w-[90%] flex flex-row-reverse pb-60 pt-60 relative con-btn">
-                                    <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[15%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
-                                        <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
+
+                                <Link to="/switch">
+                                    <div className="w-[90%] flex flex-row-reverse pb-60 pt-60 relative con-btn">
+                                        <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[15%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
+                                            <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
+                                
                             </div>
                         </section>
                     </div>
@@ -134,11 +145,15 @@ const First = () =>{
                                         コミュニケーションが生まれる場所。<br />
                                         そんなオフィスをご紹介します。
                                     </p>
-                                    <div className="w-[90%] flex flex-row-reverse pb-60 relative con-btn pt-60">
-                                        <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[15%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
-                                            <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
+
+                                    <Link to="/office">
+                                        <div className="w-[90%] flex flex-row-reverse pb-60 relative con-btn pt-60">
+                                            <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[15%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
+                                                <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </Link>
+                                    
                                 </div>
                             </div>
                         </section>

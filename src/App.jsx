@@ -11,15 +11,15 @@ function App() {
   return (
     <>
       <BrowserRouter>
-            <Routes>
+          <Routes>
                 <Route path= "/" element={<First/>} />
                 <Route path= "/switch" element={<Switch/>}/>
                 <Route path= "/office" element={<Office/>}/>
                 <Route path= "/workstyle" element={<Workstyle/>}/>
                 <Route path= "/workstylesin" element={<Workstylesin/>}/>
                 <Route path= "/workstyletyu" element={<Workstyletyu/>}/>
-            </Routes>
-      </BrowserRouter>
+          </Routes>
+      </BrowserRouter> 
     </>
   )
 }

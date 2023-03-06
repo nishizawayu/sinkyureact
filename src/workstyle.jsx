@@ -1,10 +1,12 @@
 import './index.css'
+import ScrollToTopOnMount from "./ScrollToTopOnMount";
 import Header from './Header'
 import { Link } from 'react-router-dom'
 
 const Workstyle = () =>{
     return(
         <>
+            <ScrollToTopOnMount/>
             <Header/>
                     <main className='pt-60'>
                     <section className="w-full h-screen bg-white relative z-[100]">

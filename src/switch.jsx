@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import './index.css'
+import ScrollToTopOnMount from "./ScrollToTopOnMount";
 import Header from './Header';
 import Footer from './Footer';
 
@@ -27,6 +28,7 @@ const Switch =  () =>{
 
     return(
         <>
+        <ScrollToTopOnMount/>
         <Header/>
         <main className="pt-60 lg:pt-[120px]">
             
