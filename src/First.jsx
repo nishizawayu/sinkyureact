@@ -16,19 +16,19 @@ const First = () =>{
                 <article className=" pt-60 md:pt-0">
                     <section className=" relative pt-60 pb-[120px] lg:w-full lg:h-[80vh] lg:flex m-cen">
                         <div className="fv__txt">
-                            <h2 className="slideInLeft absolute z-10 top-0 left-[5%] text-[32px] font-bold lg:top-[3%] lg:left-[3%] lg:text-[48px]">
+                            <h2 className="animate-slide-in-bck-left absolute z-10 top-0 left-[5%] text-[32px] font-bold lg:top-[3%] lg:left-[3%] lg:text-[48px]">
                                 理想の働き方を<br />
                                 自分で選べる<br />
                                 この場所で<br />
                             </h2>
-                            <p className="fv__h2 fv__h2_bottom slideInLeft absolute z-10 bottom-0 left-[5%] text-[20px] font-bold lg:text-[32px] ">
+                            <p className="animate-slide-in-bck-left fv__h2 fv__h2_bottom slideInLeft absolute z-10 bottom-0 left-[5%] text-[20px] font-bold lg:text-[32px] ">
                                 世界が<span className="text-[26px] font-bold lg:text-[36px]">“当たり前”</span>に使う<br />
                                 ITサービスを、<br />
                                 共につくろう。
                             </p>
                         </div>
                         
-                        <div className=" overflow-hidden w-full h-[60vh] lg:w-[100%] lg:h-[80vh] lg:ml-[20%] rounded-md">
+                        <div className="animate-slide-in-bck-bottom overflow-hidden w-full h-[60vh] lg:w-[100%] lg:h-[80vh] lg:ml-[20%] rounded-md">
                             <Swiper
                                 slidesPerView={1}
                                 speed={1000}
@@ -39,13 +39,13 @@ const First = () =>{
                                 }}
                                 loop={true}
                                 modules={[Autoplay,EffectFade]}
-                                className="mySwiper relative w-full"
+                                className="mySwiper relative w-full lg:w-full lg:m-cen"
                             >
                                 
-                                <SwiperSlide><img src="img1.jpg" alt="オフィスの様子" className="w-[100%]"/></SwiperSlide>
-                                <SwiperSlide><img src="office-img2.jpg" alt="オフィスの様子" className="w-[100%]"/></SwiperSlide>
-                                <SwiperSlide><img src="office-img3.jpg" alt="オフィスの様子" className="w-[100%]"/></SwiperSlide>
-                                <SwiperSlide><img src="office-img4.jpg" alt="オフィスの様子" className="w-[100%]"/></SwiperSlide>
+                                <SwiperSlide><img src="img1.jpg" alt="オフィスの様子" className="w-full"/></SwiperSlide>
+                                <SwiperSlide><img src="office-img2.jpg" alt="オフィスの様子" className="w-full"/></SwiperSlide>
+                                <SwiperSlide><img src="office-img3.jpg" alt="オフィスの様子" className="w-full"/></SwiperSlide>
+                                <SwiperSlide><img src="office-img4.jpg" alt="オフィスの様子" className="w-full"/></SwiperSlide>
                             </Swiper>
                         </div>
                         
@@ -154,7 +154,7 @@ const First = () =>{
                                     <img src="./info.jpg" alt="information" className="w-full"/>
                                 </p>
                                 <div className="w-[90%] flex flex-row-reverse pb-60 pt-60 relative">
-                                    <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[7%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
+                                    <div className="before:ease-out before:duration-700 before:content-[''] before:absolute before:w-[50px] before:h-[50px] before:rounded-[50%] before:bg-[#FA513F] before:z-[14] before:right-[15%] lg:before:right-[7%] before:top-[35px] before:hover:right-[-2%] before:hover:top-[35px] before:lg:w-[70px] before:lg:h-[70px]">
                                         <p className="relative right-[3%] top-0 z-[14] font-bold lg:text-2xl">詳しく見る</p>
                                     </div>
                                 </div>

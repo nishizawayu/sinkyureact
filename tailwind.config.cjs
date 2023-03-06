@@ -27,6 +27,8 @@ module.exports = {
       animation: {
         "slide-in-fwd-left": "slide-in-fwd-left 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
         "shadow-inset-center": "shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
+        "slide-in-bck-left": "slide-in-bck-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both",
+        "slide-in-bck-bottom": "slide-in-bck-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940)   both"
       },
       keyframes: {
         "slide-in-fwd-left": {
@@ -47,6 +49,26 @@ module.exports = {
               "box-shadow": "inset 0 0 14px 0 rgba(0, 0, 0, .5)"
           }
         },
+        "slide-in-bck-left": {
+          "0%": {
+              transform: "translateZ(700px) translateX(-400px)",
+              opacity: "0"
+          },
+          to: {
+              transform: "translateZ(0) translateX(0)",
+              opacity: "1"
+          }
+        },
+        "slide-in-bck-bottom": {
+                    "0%": {
+                        transform: "translateZ(700px) translateY(300px)",
+                        opacity: "0"
+                    },
+                    to: {
+                        transform: "translateZ(0) translateY(0)",
+                        opacity: "1"
+                    }
+                }
       },
       backgroundImage: {
         'sita': "url('border.png')",

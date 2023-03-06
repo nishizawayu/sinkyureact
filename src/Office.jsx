@@ -36,7 +36,7 @@ const Office = ()=>{
                     </div>
         
                     <p className="otop__img w-[40%] max-w-[210px] lg:w-[50%] lg:max-w-[220px]">
-                        <img src="office.png" alt="社員のON・OFF" className='w-full'/>
+                        <img src="office.png" alt="officemap" className='w-full'/>
                     </p>
                 </div>
 

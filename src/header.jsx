@@ -45,28 +45,28 @@ const Header = ()=>{
                                 </div>
                             </Link>
                             
-                            <Link to="/workstyle" className='mt-2 lg:w-[15%]'>
+                            <Link to="/workstyle" className='mt-4 lg:mt-2 lg:w-[15%]'>
                                 <div>
                                     <p>Workstyle</p>
                                     <p className=' text-[14px]'>働き方</p>
                                 </div>
                             </Link>
                            
-                            <Link to="/switch" className='mt-2 lg:w-[15%]'>
+                            <Link to="/switch" className='mt-4 lg:mt-2 lg:w-[15%]'>
                                 <div>
                                     <p>My switch</p>
                                     <p className=' text-[14px]'>社員のON・OFF</p>
                                 </div>
                             </Link>
                             
-                            <Link to="/office" className='mt-2 lg:w-[15%]'>
+                            <Link to="/office" className='mt-4 lg:mt-2 lg:w-[15%]'>
                                 <div>
                                     <p>Office</p>
                                     <p className=' text-[14px]'>オフィス</p>
                                 </div>
                             </Link>
                             
-                            <div className='mt-2 lg:w-[15%]' onClick={onClickHandleA}>
+                            <div className='mt-4 lg:mt-2 lg:w-[15%]' onClick={onClickHandleA}>
                                 <p className=' sm-mt-16'>Information</p>
                                 <p className=' text-[14px]'>募集情報</p>
                             </div>

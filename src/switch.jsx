@@ -58,7 +58,7 @@ const Switch =  () =>{
                             <img src="kawakamion.png" alt="広報室 川上智恵" className='w-full rounded-t-[10px]'/>
                         </h2>
 
-                        <button onClick={handlePushBtn1} type='button' className="myswitch__onbtn myswitch__btn1 cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FD9503] rounded-[10px] flex items-center justify-center 
+                        <button onClick={handlePushBtn1} type='button' className="hover:animate-shadow-inset-center myswitch__onbtn myswitch__btn1 cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FD9503] rounded-[10px] flex items-center justify-center 
                         lg:top-[19%] lg:right-[5%] lg:w-[90px] lg:h-[90px] transition">
                             <p className="ON text-[10px] text-[#fff] lg:text-center lg:text-[18px]">
                                 <span className="ON__big text-[24px] lg:text-[30px]">ON</span><br/>
@@ -82,7 +82,7 @@ const Switch =  () =>{
                             <h2 className="myswitch__img w-full">
                                 <img src="kawakamioff.png" alt="広報室 川上智恵" className='w-full rounded-t-[10px]'/>
                             </h2>
-                            <button onClick={handlePushBtn1} type='button' className="cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FFF] rounded-[10px] flex items-center justify-center 
+                            <button onClick={handlePushBtn1} type='button' className="hover:animate-shadow-inset-center cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FFF] rounded-[10px] flex items-center justify-center 
                             lg:top-[19%] lg:right-[5%] lg:w-[90px] lg:h-[90px] transition border border-[#FD9503]">
                                 <p className="OFF text-[10px] text-[#FD9503] lg:text-center lg:text-[18px]">
                                     <span className="OFF__big text-[24px] lg:text-[30px]">OFF</span><br/>
@@ -110,7 +110,7 @@ const Switch =  () =>{
                             <img src="kamimorion.png" alt="広報室 室長 神森 勉" className='w-full rounded-t-[10px]'/>
                         </h2>
 
-                        <button onClick={handlePushBtn2} type='button' className="cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FD9503] rounded-[10px] flex items-center justify-center 
+                        <button onClick={handlePushBtn2} type='button' className="hover:animate-shadow-inset-center cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FD9503] rounded-[10px] flex items-center justify-center 
                                 lg:top-[19%] lg:right-[5%] lg:w-[90px] lg:h-[90px] transition">
                                     <p className="OFF text-[10px] text-[#fff] lg:text-center lg:text-[18px]">
                                         <span className="OFF__big text-[24px] lg:text-[30px]">ON</span><br/>
@@ -134,7 +134,7 @@ const Switch =  () =>{
                             <img src="kamimorioff.png" alt="広報室 室長 神森 勉" className='w-full rounded-t-[10px]'/>
                         </h2>
                         
-                        <button onClick={handlePushBtn2} type='button' className="cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FFF] rounded-[10px] flex items-center justify-center 
+                        <button onClick={handlePushBtn2} type='button' className="hover:animate-shadow-inset-center cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FFF] rounded-[10px] flex items-center justify-center 
                             lg:top-[19%] lg:right-[5%] lg:w-[90px] lg:h-[90px] transition border border-[#FD9503]">
                                 <p className="OFF text-[10px] text-[#FD9503] lg:text-center lg:text-[18px]">
                                     <span className="OFF__big text-[24px] lg:text-[30px]">OFF</span><br/>
@@ -159,7 +159,7 @@ const Switch =  () =>{
                         <h2 className="myswitch__img w-full">
                             <img src="kawakamion.png" alt="広報室 川上智恵" className='w-full rounded-t-[10px]'/>
                         </h2>
-                        <button onClick={handlePushBtn3} type='button' className="myswitch__onbtn myswitch__btn1 cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FD9503] rounded-[10px] flex items-center justify-center 
+                        <button onClick={handlePushBtn3} type='button' className="hover:animate-shadow-inset-center myswitch__onbtn myswitch__btn1 cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FD9503] rounded-[10px] flex items-center justify-center 
                         lg:top-[19%] lg:right-[5%] lg:w-[90px] lg:h-[90px] transition">
                             <p className="ON text-[10px] text-[#fff] lg:text-center lg:text-[18px]">
                                 <span className="ON__big text-[24px] lg:text-[30px]">ON</span><br/>
@@ -183,7 +183,7 @@ const Switch =  () =>{
                             <h2 className="myswitch__img w-full">
                                 <img src="kawakamioff.png" alt="広報室 川上智恵" className='w-full rounded-t-[10px]'/>
                             </h2>
-                            <button onClick={handlePushBtn3} type='button' className="cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FFF] rounded-[10px] flex items-center justify-center 
+                            <button onClick={handlePushBtn3} type='button' className="hover:animate-shadow-inset-center cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FFF] rounded-[10px] flex items-center justify-center 
                             lg:top-[19%] lg:right-[5%] lg:w-[90px] lg:h-[90px] transition border border-[#FD9503]">
                                 <p className="OFF text-[10px] text-[#FD9503] lg:text-center lg:text-[18px]">
                                     <span className="OFF__big text-[24px] lg:text-[30px]">OFF</span><br/>
@@ -211,7 +211,7 @@ const Switch =  () =>{
                             <img src="kamimorion.png" alt="広報室 室長 神森 勉" className='w-full rounded-t-[10px]'/>
                         </h2>
 
-                        <button onClick={handlePushBtn4} type='button' className="cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FD9503] rounded-[10px] flex items-center justify-center 
+                        <button onClick={handlePushBtn4} type='button' className="hover:animate-shadow-inset-center cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FD9503] rounded-[10px] flex items-center justify-center 
                                 lg:top-[19%] lg:right-[5%] lg:w-[90px] lg:h-[90px] transition">
                                     <p className="OFF text-[10px] text-[#fff] lg:text-center lg:text-[18px]">
                                         <span className="OFF__big text-[24px] lg:text-[30px]">ON</span><br/>
@@ -235,7 +235,7 @@ const Switch =  () =>{
                                 <img src="kamimorioff.png" alt="広報室 室長 神森 勉" className='w-full rounded-t-[10px]'/>
                             </h2>
                             
-                            <button onClick={handlePushBtn4} type='button' className="cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FFF] rounded-[10px] flex items-center justify-center 
+                            <button onClick={handlePushBtn4} type='button' className="hover:animate-shadow-inset-center cursor-pointer absolute top-[70px] right-[10px] min-w-[70px] min-h-[70px] w-[15%] h-[15%] bg-[#FFF] rounded-[10px] flex items-center justify-center 
                                 lg:top-[19%] lg:right-[5%] lg:w-[90px] lg:h-[90px] transition border border-[#FD9503]">
                                     <p className="OFF text-[10px] text-[#FD9503] lg:text-center lg:text-[18px]">
                                         <span className="OFF__big text-[24px] lg:text-[30px]">OFF</span><br/>
