@@ -46,12 +46,12 @@ const Office = ()=>{
                     オフィス内の気になるところを<br/>
                     クリックしてください。</p>
                 
-                <div className="office__nav relative">
+                <div className="office__nav relative" id="map">
 
-                    <p className="office__map m-cen w-[80%] pb-60 lg:w-[80%] lg:pb-[120px]" id="map">
+                    <p className="office__map m-cen w-[80%] pb-60 lg:w-[80%] lg:pb-[120px]">
                         <img src="office-map.png" useMap="#image-map" className='w-full '/>
                         <map name="image-map">
-                            <area target="" alt="ope-btn" title="ope-btn" href="#ope" coords="392,89,90" shape="circle"/>
+                            <area target="" alt="ope-btn" title="ope-btn" href="#ope" coords="392,89,90" shape="circle" className="bg-[#000]"/>
                             <area target="" alt="rela-btn" title="rela-btn" href="#rela" coords="807,97,89" shape="circle"/>
                             <area target="" alt="hure-btn" title="hure-btn" href="#hure" coords="1175,248,89" shape="circle"/>
                             <area target="" alt="shu-btn" title="shu-btn" href="#shu" coords="1157,540,88" shape="circle"/>

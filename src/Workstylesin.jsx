@@ -20,7 +20,7 @@ const Workstylesin = () =>{
                                     新卒採用希望者の方
                                 </h2>
                 
-                                <h2 className="pt-[30px] text-[32px] leading-[30px] lg:text-[54px] font-bold lg:leading-[64px]">
+                                <h2 className="pt-[30px] text-[32px] leading-[30px] lg:text-[54px] font-medium lg:leading-[64px]">
                                     Workstyle<br/>
                                     <span className="text-2xl lg:text-4xl">働き方</span>
                                 </h2>

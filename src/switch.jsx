@@ -36,7 +36,7 @@ const Switch =  () =>{
                 <div className="myswitch__top w-[90%] max-w-[600px] lg:max-w-[800px] flex m-cen justify-between items-end">
                     <div className="myswitch__top_left">
         
-                        <h2 className="myswitch__h2 pt-[30px] text-[32px] leading-[30px] lg:font-medium lg:text:[54px] lg:leading-[64px]">
+                        <h2 className="myswitch__h2 pt-[30px] text-[32px] leading-[30px] lg:font-medium lg:text-[54px] lg:leading-[64px]">
                             My switch<br/>
                             <span className="myswitch__h2_small text-[24px] lg:text-[36px]">社員のON・OFF</span>
                         </h2>

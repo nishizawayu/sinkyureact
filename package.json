@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "autoprefixer": "^10.4.13",
@@ -23,7 +25,9 @@
     "@types/swiper": "^6.0.0",
     "@vitejs/plugin-react": "^3.1.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.2.7",
     "vite": "^4.1.0"
-  }
+  },
+  "homepage": "https://nishizawayu.github.io/sinkyuu"
 }
