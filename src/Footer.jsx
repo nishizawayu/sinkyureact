@@ -56,6 +56,7 @@ const Footer = ()=>{
                     </div>
                     
                     <div className="lg:w-[35%] lg:flex lg:justify-end lg:flex-wrap">
+
                         <Link to="/">
                             <p className="pt-60 lg:pt-0 pb-[30px] w-[30%] m-cen lg:m-auto lg:w-[50%] lg:pb-60">
                                 <img src="logo_kddi.png" alt="KDDIウェブコミュニケーションズ" className='w-full'/>
@@ -63,6 +64,7 @@ const Footer = ()=>{
                         </Link>
                         
                         <p className="w-[80%] m-cen lg:m-0 text-center pb-[30px] text-base lg:text-xl"><small>&copy; 2022 KDDI Web Communications inc.</small></p>
+                    
                     </div>
                     
                 </div>
