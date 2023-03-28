@@ -5,7 +5,7 @@
 
 開発環境
 
- HTML5 Tailwindcss react Gsap github
+　HTML5 Tailwindcss react Gsap github
 
 制作時間
 
