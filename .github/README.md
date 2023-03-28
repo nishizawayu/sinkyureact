@@ -7,7 +7,7 @@
 
  HTML5 Tailwindcss react Gsap github
 
-制作期間
+制作時間
 
 　50時間
 
