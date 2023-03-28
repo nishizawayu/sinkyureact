@@ -1,4 +1,8 @@
 # sinkyureact
+プロジェクト名
+
+　KDDIウェブコミュニケーションズオフィス紹介スペシャルサイト
+
 作品概要
 　
  Reactの勉強のために進級制作の作品をReact化したもの
@@ -7,9 +11,17 @@
 
 　HTML5 Tailwindcss react Gsap github
 
+開発ソフト
+
+　VScode
+
 制作時間
 
 　50時間
+
+目的
+
+　自身の学力の向上の為
 
 工夫点
 
